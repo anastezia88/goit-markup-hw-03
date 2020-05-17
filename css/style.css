@@ -43,6 +43,10 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -209,12 +213,13 @@ a:focus {
 /* блочность */
 
 .header {
-  display: flex;
   margin-left: auto;
   margin-right: auto;
 
   outline: 2px solid black;
-  background-color: blue;
+
+  /* margin-right: 50px;
+  display: flex; */
 }
 
 /* кнопки */
@@ -250,7 +255,6 @@ a:focus {
   margin-bottom: 0;
 }
 .container {
-  background-color: red;
   outline: 2px solid black;
 
   width: 1230px;
@@ -259,9 +263,31 @@ a:focus {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
 }
 .features {
   background-color: yellow;
   padding-top: 94px;
+}
+
+.site-nav {
+  display: flex;
+  margin-right: 80px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+  background-color: springgreen;
+}
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+.auth-nav .item:not(:last-child) {
+  margin-right: 30px;
+  background-color: springgreen;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
