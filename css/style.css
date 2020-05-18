@@ -10,7 +10,6 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  height: 2924px;
 }
 ul {
   list-style: none;
@@ -108,6 +107,7 @@ a:focus {
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-color);
+  text-align: left;
 }
 
 /* список ссылок приложений */
@@ -126,7 +126,7 @@ a:focus {
 .teamwork {
   background-color: #f5f4fa;
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -217,9 +217,6 @@ a:focus {
   margin-right: auto;
 
   outline: 2px solid black;
-
-  /* margin-right: 50px;
-  display: flex; */
 }
 
 /* кнопки */
@@ -248,8 +245,9 @@ a:focus {
   background-color: darkorange;
 }
 .section {
-  background-color: darkseagreen;
+  background-color: rgb(156, 143, 188);
   padding-top: 94px;
+  padding-bottom: 94px;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -257,7 +255,7 @@ a:focus {
 .container {
   outline: 2px solid black;
 
-  width: 1230px;
+  width: 1200px;
 
   padding-left: 15px;
   padding-right: 15px;
@@ -267,27 +265,43 @@ a:focus {
 .features {
   background-color: yellow;
   padding-top: 94px;
+  padding-bottom: 94px;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
   display: flex;
-  margin-right: 80px;
+  margin-right: 50px;
+  background-color: springgreen;
 }
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
-  background-color: springgreen;
 }
 .auth-nav {
   display: flex;
   margin-left: auto;
+  background-color: springgreen;
 }
 .auth-nav .item:not(:last-child) {
   margin-right: 30px;
-  background-color: springgreen;
 }
 .main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.features-list {
+  display: flex;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  justify-content: center;
+  /* width: 270px; */
+}
+.features-list .item {
+  /* margin-right: 30px; */
+  background-color: springgreen;
+}
+.features-list .item:not(:last-child) {
+  margin-right: 30px;
 }
