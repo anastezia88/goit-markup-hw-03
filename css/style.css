@@ -120,6 +120,8 @@ a:focus {
   color: var(--title-text-color);
   text-decoration: none;
   background-color: chartreuse;
+  text-align: center;
+  display: block;
 }
 
 /* наша команда */
@@ -246,6 +248,7 @@ a:focus {
 }
 .section {
   background-color: rgb(156, 143, 188);
+
   padding-top: 94px;
   padding-bottom: 94px;
 
@@ -293,15 +296,30 @@ a:focus {
 }
 .features-list {
   display: flex;
-  padding-top: 94px;
-  padding-bottom: 94px;
   justify-content: center;
-  /* width: 270px; */
 }
 .features-list .item {
-  /* margin-right: 30px; */
   background-color: springgreen;
+  width: 270px;
 }
 .features-list .item:not(:last-child) {
   margin-right: 30px;
+}
+.dolist {
+  display: flex;
+  justify-content: center;
+}
+.dolist .item {
+  width: 370px;
+  justify-content: center;
+  background-color: springgreen;
+}
+.dolist .item:not(:last-child) {
+  margin-right: 30px;
+}
+.team {
+  display: flex;
+}
+.clients {
+  display: flex;
 }
