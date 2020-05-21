@@ -154,12 +154,20 @@ a:focus {
 
 /* футер */
 .footer {
+  display: flex;
+  justify-self: baseline;
+
   background-color: #2f303a;
   color: var(--title-text-color);
   font-weight: normal;
   font-size: 14px;
 }
+/* .abc {
+  justify-self: baseline;
+} */
 .logo-footer {
+  margin-top: 0;
+  margin-bottom: 0;
   color: #000000;
   font-family: Raleway;
   font-style: normal;
@@ -347,4 +355,7 @@ a:focus {
 }
 .clients-brand:not(:last-child) {
   margin-right: 30px;
+}
+.adress {
+  display: flex;
 }
