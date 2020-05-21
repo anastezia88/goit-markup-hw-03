@@ -137,6 +137,11 @@ a:focus {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  background-color: tomato;
+  outline: 5px solid blue;
 }
 
 .teamwork p {
@@ -144,6 +149,7 @@ a:focus {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  margin-top: 0;
 }
 
 /* футер */
@@ -188,6 +194,10 @@ a:focus {
 .copyright {
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 18px;
+  padding-bottom: 21px;
 }
 /* страница портфолио */
 .filter {
@@ -257,6 +267,7 @@ a:focus {
 }
 .container {
   outline: 2px solid black;
+  background-color: chartreuse;
 
   width: 1200px;
 
@@ -320,6 +331,20 @@ a:focus {
 .team {
   display: flex;
 }
+.team .item.item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .clients {
   display: flex;
+}
+
+.icons {
+  outline: 2px solid black;
+  padding-left: 32px;
+  padding-right: 31px;
+  margin-bottom: 24px;
+}
+.clients-brand:not(:last-child) {
+  margin-right: 30px;
 }
