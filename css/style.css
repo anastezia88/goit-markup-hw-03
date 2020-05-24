@@ -154,7 +154,9 @@ a:focus {
 
 /* футер */
 .footer {
-  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+
   justify-self: baseline;
 
   background-color: #2f303a;
@@ -162,12 +164,13 @@ a:focus {
   font-weight: normal;
   font-size: 14px;
 }
-/* .abc {
+.flex {
+  display: flex;
   justify-self: baseline;
-} */
+}
 .logo-footer {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   color: #000000;
   font-family: Raleway;
   font-style: normal;
@@ -188,6 +191,7 @@ a:focus {
 .adress-info span {
   color: rgba(255, 255, 255, 0.6);
   line-height: 1.7;
+  margin-bottom: 9px;
 }
 .footer b {
   text-transform: uppercase;
@@ -200,6 +204,7 @@ a:focus {
 }
 
 .copyright {
+  display: inline;
   color: rgba(255, 255, 255, 0.4);
   font-size: 12px;
   margin-top: 0;
