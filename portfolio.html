@@ -18,39 +18,54 @@
   <body>
     <!-- portfolio page -->
 
-    <header>
-      <nav>
-        <a href="" class="logo"><span>Web </span><b>Studio</b></a>
+    <header class="header">
+      <div class="container main-nav">
+        <nav>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="" class="logo"><span>Web </span><b>Studio</b></a>
+            </li>
+            <li class="item"><a href="./index.html" class="link">Студия</a></li>
+            <li class="item">
+              <a href="./portfolio.html" class="link current">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+        </nav>
 
-        <ul class="site-nav list">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link current">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link">
+              <img src="./images/envelope.svg" alt="конверт" />
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="item">
+            <a href="tel:+380961111111" class="link">
+              <img src="./images/tel.svg" alt="телефон" />
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
-      </nav>
-      <ul class="auth-nav list">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link">
-            <img src="./images/envelope.svg" alt="конверт" />
-            info@devstudio.com
-          </a>
-        </li>
-        <li>
-          <a href="tel:+380961111111" class="link">
-            <img src="./images/tel.svg" alt="телефон" />
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
-    <main>
+
+    <main class="main container">
       <!-- /*фильтр */ -->
-      <ul>
-        <li><button type="button" class="button">Все</button></li>
-        <li><button type="button" class="filter">Веб-сайты</button></li>
-        <li><button type="button" class="filter">Приложения</button></li>
-        <li><button type="button" class="filter">Дизайн</button></li>
-        <li><button type="button" class="filter">Маркетинг</button></li>
+      <ul class="select">
+        <li class="item"><button type="button" class="filter">Все</button></li>
+        <li class="item">
+          <button type="button" class="filter">Веб-сайты</button>
+        </li>
+        <li class="item">
+          <button type="button" class="filter">Приложения</button>
+        </li>
+        <li class="item">
+          <button type="button" class="filter">Дизайн</button>
+        </li>
+        <li class="item">
+          <button type="button" class="filter">Маркетинг</button>
+        </li>
       </ul>
 
       <!--примеры работ-->
@@ -173,33 +188,31 @@
     </main>
 
     <footer class="footer">
-      <div>
-        <p class="logo-footer"><span>Web </span>Studio</p>
-        <address class="adress-info">
-          г. Киев, пр-т Леси Украинки, 26 <br />
-          <span>info@example.com</span> <br />
-          <span>+38 099 111 11 11</span>
-        </address>
-      </div>
+      <div class="footer container">
+        <div>
+          <p class="logo-footer"><span>Web</span> Studio</p>
 
-      <div>
-        <b>присоединяйтесь</b>
-        <!--иконки соцсетей-->
+          <address class="adress-info">
+            г. Киев, пр-т Леси Украинки, 26
+            <span>info@example.com</span>
+            <span>+38 099 111 11 11</span>
+          </address>
+        </div>
 
-        <ul>
-          <li><a href="" aria-label="facebook link"> </a></li>
-          <li><a href="" aria-label="instagram"></a></li>
-          <li><a href="" aria-label="twitter"></a></li>
-          <li><a href="" aria-label="linkid"></a></li>
-        </ul>
-      </div>
+        <div>
+          <b>присоединяйтесь</b>
+          <!--иконки соцсетей-->
+          <ul>
+            <li>facebook link<a href="" aria-label=""> </a></li>
+            <li>instagram<a href="" aria-label=""></a></li>
+            <li>twitter<a href="" aria-label=""></a></li>
+            <li>linkid<a href="" aria-label=""></a></li>
+          </ul>
+        </div>
 
-      <div>
-        <p>
-          <b>подпишитесь на рассылку</b>
-        </p>
+        <b>подпишитесь на рассылку</b>
 
-        <form action="">
+        <form class="form" action="">
           <input type="email" value="E-mail" />
           <input type="submit" value="Подписаться" class="button" />
         </form>
