@@ -393,3 +393,11 @@ a:focus {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.abc {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  margin-right: 30px;
+}
