@@ -350,8 +350,9 @@ a:focus {
 .icons {
   outline: 2px solid black;
   padding-left: 32px;
-  padding-right: 31px;
+  padding-right: 32px;
   margin-bottom: 24px;
+  display: flex;
 }
 .clients-brand:not(:last-child) {
   margin-right: 30px;
@@ -400,4 +401,14 @@ a:focus {
 }
 .card:nth-last-child(-n + 3) {
   margin-bottom: 0px;
+}
+.icons .social:hover,
+.icons .social:focus {
+  background-color: red;
+}
+.social {
+  margin-right: 10px;
+}
+.social :not(:last-child) {
+  margin-right: 0;
 }
